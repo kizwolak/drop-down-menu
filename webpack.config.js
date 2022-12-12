@@ -5,7 +5,6 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './src/main.js',
-    index: './src/index.html',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -24,10 +23,6 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.html$/i,
-        loader: 'html-loader',
-      },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
