@@ -1,7 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .main {
+    padding: 2em;
     width: 100%;
-    height: 20%;
+    height: 20vh;
     border: 1px solid black;
     display: flex;
     gap: 10em;
+    background-color: darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
 }
+
+.submenu {
+    display: none;
+}
+
