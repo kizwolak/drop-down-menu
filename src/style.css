@@ -14,9 +14,17 @@
     background-color: darkkhaki;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
+    position: absolute;
+}
+
+.menu {
+    padding: 1em;
+    position: relative;
+    width: 15em;
 }
 
 .submenu {
     display: none;
+    margin-left: 1em;
 }
 
